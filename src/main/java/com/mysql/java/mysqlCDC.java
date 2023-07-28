@@ -166,6 +166,7 @@ public class mysqlCDC {
 
                                     .build();
 
+
                             EmbeddedEngine engine = EmbeddedEngine.create()
                                     .using(config)
                                     .notifying(record -> {
